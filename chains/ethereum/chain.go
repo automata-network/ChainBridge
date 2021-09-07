@@ -30,15 +30,15 @@ import (
 	"github.com/ChainSafe/ChainBridge/bindings/GenericHandler"
 	connection "github.com/ChainSafe/ChainBridge/connections/ethereum"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/blockstore"
+	"github.com/automata-network/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/crypto/secp256k1"
+	"github.com/automata-network/chainbridge-utils/keystore"
+	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ryuh1/chainbridge-utils/blockstore"
-	"github.com/ryuh1/chainbridge-utils/core"
-	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
-	"github.com/ryuh1/chainbridge-utils/keystore"
-	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var _ core.Chain = &Chain{}

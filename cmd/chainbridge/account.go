@@ -13,11 +13,11 @@ import (
 
 	"github.com/ChainSafe/ChainBridge/config"
 	log "github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/crypto"
+	"github.com/automata-network/chainbridge-utils/crypto/secp256k1"
+	"github.com/automata-network/chainbridge-utils/crypto/sr25519"
+	"github.com/automata-network/chainbridge-utils/keystore"
 	gokeystore "github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ryuh1/chainbridge-utils/crypto"
-	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
-	"github.com/ryuh1/chainbridge-utils/crypto/sr25519"
-	"github.com/ryuh1/chainbridge-utils/keystore"
 	"github.com/urfave/cli/v2"
 )
 

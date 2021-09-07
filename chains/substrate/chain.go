@@ -25,12 +25,12 @@ package substrate
 
 import (
 	"github.com/ChainSafe/log15"
-	"github.com/ryuh1/chainbridge-utils/blockstore"
-	"github.com/ryuh1/chainbridge-utils/core"
-	"github.com/ryuh1/chainbridge-utils/crypto/sr25519"
-	"github.com/ryuh1/chainbridge-utils/keystore"
-	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
+	"github.com/automata-network/chainbridge-utils/blockstore"
+	"github.com/automata-network/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/crypto/sr25519"
+	"github.com/automata-network/chainbridge-utils/keystore"
+	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
+	"github.com/automata-network/chainbridge-utils/msg"
 )
 
 var _ core.Chain = &Chain{}

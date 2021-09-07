@@ -16,16 +16,16 @@ import (
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/crypto/secp256k1"
+	"github.com/automata-network/chainbridge-utils/keystore"
+	"github.com/automata-network/chainbridge-utils/msg"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ryuh1/chainbridge-utils/core"
-	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
-	"github.com/ryuh1/chainbridge-utils/keystore"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var TestTimeout = time.Second * 30

@@ -8,8 +8,8 @@ import (
 	"math/big"
 
 	"github.com/ChainSafe/log15"
-	events "github.com/ryuh1/chainbridge-substrate-events"
-	"github.com/ryuh1/chainbridge-utils/msg"
+	events "github.com/automata-network/chainbridge-substrate-events"
+	"github.com/automata-network/chainbridge-utils/msg"
 )
 
 type eventName string

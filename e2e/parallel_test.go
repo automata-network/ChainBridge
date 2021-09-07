@@ -15,10 +15,10 @@ import (
 	subutils "github.com/ChainSafe/ChainBridge/shared/substrate"
 	subtest "github.com/ChainSafe/ChainBridge/shared/substrate/testing"
 	log "github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 // Random recipient

@@ -4,7 +4,7 @@
 package chains
 
 import (
-	"github.com/ryuh1/chainbridge-utils/msg"
+	"github.com/automata-network/chainbridge-utils/msg"
 )
 
 type Router interface {

@@ -11,7 +11,7 @@ import (
 
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	log "github.com/ChainSafe/log15"
-	"github.com/ryuh1/chainbridge-utils/msg"
+	"github.com/automata-network/chainbridge-utils/msg"
 )
 
 // Number of blocks to wait for an finalization event

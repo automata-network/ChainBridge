@@ -13,9 +13,9 @@ import (
 	connection "github.com/ChainSafe/ChainBridge/connections/ethereum"
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/keystore"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ryuh1/chainbridge-utils/keystore"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 const TestEndpoint = "ws://localhost:8545"

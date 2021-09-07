@@ -6,7 +6,7 @@ package substrate
 import (
 	"strconv"
 
-	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/core"
 )
 
 func parseStartBlock(cfg *core.ChainConfig) uint64 {

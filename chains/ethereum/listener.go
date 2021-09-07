@@ -17,12 +17,12 @@ import (
 	"github.com/ChainSafe/ChainBridge/chains"
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/blockstore"
+	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
+	"github.com/automata-network/chainbridge-utils/msg"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethcommon "github.com/ethereum/go-ethereum/common"
-	"github.com/ryuh1/chainbridge-utils/blockstore"
-	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var BlockRetryInterval = time.Second * 5

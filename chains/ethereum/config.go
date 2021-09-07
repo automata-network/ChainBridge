@@ -9,9 +9,9 @@ import (
 	"math/big"
 
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
+	"github.com/automata-network/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ryuh1/chainbridge-utils/core"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 const DefaultGasLimit = 6721975

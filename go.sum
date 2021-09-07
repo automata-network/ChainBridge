@@ -60,6 +60,10 @@ github.com/aristanetworks/goarista v0.0.0-20170210015632-ea17b1a17847/go.mod h1:
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=
 github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310/go.mod h1:ufUuZ+zHj4x4TnLV4JWEpy2hxWSpsRywHrMgIH9cCH8=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210907040821-c47e4fc184b0 h1:D0pSS8D25SQD3ZnVMdp1jdTVq2GexwbFP6R+jq3fnEs=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210907040821-c47e4fc184b0/go.mod h1:DK5dAFqFvFE78uZze6P7fiJ5SjRpjmSyXWVvGz10Zw4=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59 h1:uPaRHbal5XG09u6Q7sPAOl9WkyigmhR92uI8CssyT/4=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59/go.mod h1:sKU41f7OEe6Q2oaOdTI3qohvgUpRaLmn3ZS5DcWmXxo=
 github.com/aws/aws-sdk-go v1.25.48/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-sdk-go-v2 v1.2.0/go.mod h1:zEQs02YRBw1DjK0PoJv3ygDYOFTre1ejlJWl8FwAuQo=
 github.com/aws/aws-sdk-go-v2/config v1.1.1/go.mod h1:0XsVy9lBI/BCXm+2Tuvt39YmdHwS5unDQmxZOYe8F5Y=
@@ -442,10 +446,10 @@ github.com/rs/xhandler v0.0.0-20160618193221-ed27b6fd6521/go.mod h1:RvLn4FgxWubr
 github.com/russross/blackfriday/v2 v2.0.1 h1:lPqVAte+HuHNfhJ/0LC98ESWRz8afy9tM/0RK8m9o+Q=
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/ryanuber/columnize v0.0.0-20160712163229-9b3edd62028f/go.mod h1:sm1tb6uqfes/u+d4ooFouqFdy9/2g9QGwK3SQygK0Ts=
-github.com/ryuh1/chainbridge-substrate-events v0.0.0-20210907040538-c1420ff9dcd1 h1:u374IDacwDKhX4Yb4U9VQ4XD+enyefkiXx5zdu/qCk0=
-github.com/ryuh1/chainbridge-substrate-events v0.0.0-20210907040538-c1420ff9dcd1/go.mod h1:+ceTmuEh4/VsmwbI9vFEclMJH5lZWKHajhLFHM8ZRvQ=
-github.com/ryuh1/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae h1:bBSAmWUOBi/aPl50ZIIV93z6po8TEKZAKTt7pCMNGEU=
-github.com/ryuh1/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae/go.mod h1:xqPuEJg+Bw1xWEAC+GpiKoASQ019AoDp1nuGH95kLtw=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210907040538-c1420ff9dcd1 h1:u374IDacwDKhX4Yb4U9VQ4XD+enyefkiXx5zdu/qCk0=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210907040538-c1420ff9dcd1/go.mod h1:+ceTmuEh4/VsmwbI9vFEclMJH5lZWKHajhLFHM8ZRvQ=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae h1:bBSAmWUOBi/aPl50ZIIV93z6po8TEKZAKTt7pCMNGEU=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae/go.mod h1:xqPuEJg+Bw1xWEAC+GpiKoASQ019AoDp1nuGH95kLtw=
 github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529/go.mod h1:DxrIzT+xaE7yg65j358z/aeFdxmN0P9QXhEzd20vsDc=
 github.com/segmentio/kafka-go v0.1.0/go.mod h1:X6itGqS9L4jDletMsxZ7Dz+JFWxM6JHfPOCvTvk+EJo=
 github.com/segmentio/kafka-go v0.2.0/go.mod h1:X6itGqS9L4jDletMsxZ7Dz+JFWxM6JHfPOCvTvk+EJo=

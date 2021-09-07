@@ -8,10 +8,10 @@ import (
 	"math/big"
 
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/msg"
 	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v3"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 // Client is a container for all the components required to submit extrinsics

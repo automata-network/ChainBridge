@@ -12,10 +12,10 @@ import (
 	"github.com/ChainSafe/ChainBridge/chains"
 	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/blockstore"
+	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
-	"github.com/ryuh1/chainbridge-utils/blockstore"
-	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 type listener struct {

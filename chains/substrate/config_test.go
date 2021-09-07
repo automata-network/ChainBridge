@@ -6,7 +6,7 @@ package substrate
 import (
 	"testing"
 
-	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/core"
 )
 
 func TestParseStartBlock(t *testing.T) {

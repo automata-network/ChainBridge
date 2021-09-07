@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/core"
 
 	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
 	"github.com/ChainSafe/log15"
+	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
-	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var _ core.Writer = &writer{}

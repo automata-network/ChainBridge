@@ -4,8 +4,8 @@
 package ethereum
 
 import (
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 func (l *listener) handleErc20DepositedEvent(destId msg.ChainId, nonce msg.Nonce) (msg.Message, error) {

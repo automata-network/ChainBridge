@@ -9,11 +9,11 @@ import (
 	"time"
 
 	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
+	"github.com/automata-network/chainbridge-utils/core"
+	"github.com/automata-network/chainbridge-utils/keystore"
+	"github.com/automata-network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	"github.com/ryuh1/chainbridge-utils/core"
-	"github.com/ryuh1/chainbridge-utils/keystore"
-	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 func TestChain_ListenerShutdownOnFailure(t *testing.T) {

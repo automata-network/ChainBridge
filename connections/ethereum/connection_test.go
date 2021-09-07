@@ -11,8 +11,8 @@ import (
 	ethutils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
 	"github.com/ChainSafe/log15"
+	"github.com/automata-network/chainbridge-utils/keystore"
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/ryuh1/chainbridge-utils/keystore"
 )
 
 var TestEndpoint = "ws://localhost:8545"

@@ -13,11 +13,11 @@ import (
 
 	"github.com/ethereum/go-ethereum"
 
+	"github.com/automata-network/chainbridge-utils/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
 )
 
 const DefaultGasLimit = 6721975
