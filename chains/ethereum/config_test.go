@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Phala-Network/chainbridge-utils/core"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ryuh1/chainbridge-utils/core"
 )
 
 //TestParseChainConfig tests parseChainConfig with all handlerContracts provided

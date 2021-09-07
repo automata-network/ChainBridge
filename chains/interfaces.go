@@ -4,7 +4,7 @@
 package chains
 
 import (
-	"github.com/Phala-Network/chainbridge-utils/msg"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 type Router interface {

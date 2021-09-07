@@ -7,8 +7,8 @@ import (
 	"math/big"
 
 	"github.com/ChainSafe/ChainBridge/bindings/Bridge"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 func RegisterResource(client *Client, bridge, handler common.Address, rId msg.ResourceId, addr common.Address) error {

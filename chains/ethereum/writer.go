@@ -5,10 +5,10 @@ package ethereum
 
 import (
 	"github.com/ChainSafe/ChainBridge/bindings/Bridge"
-	"github.com/Phala-Network/chainbridge-utils/core"
-	metrics "github.com/Phala-Network/chainbridge-utils/metrics/types"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
+	"github.com/ryuh1/chainbridge-utils/core"
+	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var _ core.Writer = &writer{}

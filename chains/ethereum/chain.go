@@ -29,16 +29,16 @@ import (
 	erc721Handler "github.com/ChainSafe/ChainBridge/bindings/ERC721Handler"
 	"github.com/ChainSafe/ChainBridge/bindings/GenericHandler"
 	connection "github.com/ChainSafe/ChainBridge/connections/ethereum"
-	"github.com/Phala-Network/chainbridge-utils/blockstore"
-	"github.com/Phala-Network/chainbridge-utils/core"
-	"github.com/Phala-Network/chainbridge-utils/crypto/secp256k1"
-	"github.com/Phala-Network/chainbridge-utils/keystore"
-	metrics "github.com/Phala-Network/chainbridge-utils/metrics/types"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/ryuh1/chainbridge-utils/blockstore"
+	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
+	"github.com/ryuh1/chainbridge-utils/keystore"
+	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var _ core.Chain = &Chain{}

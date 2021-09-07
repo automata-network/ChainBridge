@@ -12,9 +12,9 @@ import (
 
 	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
 	subtest "github.com/ChainSafe/ChainBridge/shared/substrate/testing"
-	"github.com/Phala-Network/chainbridge-utils/blockstore"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	"github.com/ryuh1/chainbridge-utils/blockstore"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 const ListenerTimeout = time.Second * 30

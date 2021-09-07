@@ -18,12 +18,12 @@ import (
 	"github.com/ChainSafe/ChainBridge/chains/ethereum"
 	"github.com/ChainSafe/ChainBridge/chains/substrate"
 	"github.com/ChainSafe/ChainBridge/config"
-	"github.com/Phala-Network/chainbridge-utils/core"
-	"github.com/Phala-Network/chainbridge-utils/metrics/health"
-	metrics "github.com/Phala-Network/chainbridge-utils/metrics/types"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	log "github.com/ChainSafe/log15"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/ryuh1/chainbridge-utils/metrics/health"
+	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
+	"github.com/ryuh1/chainbridge-utils/msg"
 	"github.com/urfave/cli/v2"
 )
 

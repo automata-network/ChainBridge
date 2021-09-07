@@ -24,13 +24,13 @@ As the writer receives messages from the router, it constructs proposals. If a p
 package substrate
 
 import (
-	"github.com/Phala-Network/chainbridge-utils/blockstore"
-	"github.com/Phala-Network/chainbridge-utils/core"
-	"github.com/Phala-Network/chainbridge-utils/crypto/sr25519"
-	"github.com/Phala-Network/chainbridge-utils/keystore"
-	metrics "github.com/Phala-Network/chainbridge-utils/metrics/types"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
+	"github.com/ryuh1/chainbridge-utils/blockstore"
+	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/ryuh1/chainbridge-utils/crypto/sr25519"
+	"github.com/ryuh1/chainbridge-utils/keystore"
+	metrics "github.com/ryuh1/chainbridge-utils/metrics/types"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var _ core.Chain = &Chain{}

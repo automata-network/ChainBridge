@@ -10,8 +10,8 @@ import (
 	"time"
 
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	log "github.com/ChainSafe/log15"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 // Number of blocks to wait for an finalization event

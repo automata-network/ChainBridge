@@ -15,10 +15,6 @@ import (
 	"github.com/ChainSafe/ChainBridge/chains/ethereum"
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
-	"github.com/Phala-Network/chainbridge-utils/core"
-	"github.com/Phala-Network/chainbridge-utils/crypto/secp256k1"
-	"github.com/Phala-Network/chainbridge-utils/keystore"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -26,6 +22,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ryuh1/chainbridge-utils/core"
+	"github.com/ryuh1/chainbridge-utils/crypto/secp256k1"
+	"github.com/ryuh1/chainbridge-utils/keystore"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 var TestTimeout = time.Second * 30

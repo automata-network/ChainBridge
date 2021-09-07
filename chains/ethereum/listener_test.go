@@ -16,11 +16,11 @@ import (
 	"github.com/ChainSafe/ChainBridge/bindings/GenericHandler"
 	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
 	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
-	"github.com/Phala-Network/chainbridge-utils/blockstore"
-	"github.com/Phala-Network/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
+	"github.com/ryuh1/chainbridge-utils/blockstore"
+	"github.com/ryuh1/chainbridge-utils/msg"
 )
 
 type MockRouter struct {
