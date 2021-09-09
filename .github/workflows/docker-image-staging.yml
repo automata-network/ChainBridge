@@ -26,17 +26,20 @@ jobs:
         uses: docker/setup-qemu-action@v1
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
-      - name: Login acr
+      - name: Build and push image
         uses: azure/docker-login@v1
         with:
           login-server: ${{ env.REGISTRY_NAME }}.azurecr.io
           username: ${{ secrets.ATA_ACR_USERNAME }}
           password: ${{ secrets.ATA_ACR_PASSWORD }}
-      - name: Build and push
-        id: docker_build
-        uses: docker/build-push-action@v2
-        with:
-          push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.prep.outputs.tags }}
+      - run: |
+          docker build . -t ${{ steps.prep.outputs.tags }}
+          docker push ${{ steps.prep.outputs.tags }}
+      # - name: Build and push
+      #   id: docker_build
+      #   uses: docker/build-push-action@v2
+      #   with:
+      #     push: ${{ github.event_name != 'pull_request' }}
+      #     tags: ${{ steps.prep.outputs.tags }}
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
