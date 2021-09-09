@@ -18,16 +18,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: 'Login via Azure CLI'
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Prepare
         id: prep
         run: |
           DOCKER_IMAGE=${{ env.REGISTRY_NAME }}.azurecr.io/chainbridge
           TAGS="${DOCKER_IMAGE}:staging-${{ github.sha }}"
           echo ::set-output name=tags::${TAGS}
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+      # - name: Set up QEMU
+      #   uses: docker/setup-qemu-action@v1
+      # - name: Set up Docker Buildx
+      #   uses: docker/setup-buildx-action@v1
       - name: Build and push image
         uses: azure/docker-login@v1
         with:
