@@ -15,7 +15,7 @@ RUN wget -P /usr/local/bin/ https://chainbridge.ams3.digitaloceanspaces.com/subk
   && chmod +x /usr/local/bin/subkey
 RUN subkey --version
 
-COPY --from=builder /bridge ./
-RUN chmod +x ./bridge
+COPY --from=builder /bridge /bridge
+RUN chmod +x /bridge
 
-ENTRYPOINT ["./bridge"]
+ENTRYPOINT ["/bridge"]
