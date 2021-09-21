@@ -9,8 +9,8 @@ import (
 
 	"github.com/ChainSafe/ChainBridge/e2e/substrate"
 	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v3"
-	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	gsrpc "github.com/automata-network/go-substrate-rpc-client/v3"
+	"github.com/automata-network/go-substrate-rpc-client/v3/types"
 )
 
 func TestChain_Events(t *testing.T) {
