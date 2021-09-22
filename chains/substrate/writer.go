@@ -15,7 +15,7 @@ import (
 	"github.com/ChainSafe/log15"
 	metrics "github.com/automata-network/chainbridge-utils/metrics/types"
 	"github.com/automata-network/chainbridge-utils/msg"
-	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
+	"github.com/automata-network/go-substrate-rpc-client/v3/types"
 )
 
 var _ core.Writer = &writer{}
