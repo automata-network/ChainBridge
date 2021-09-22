@@ -72,6 +72,8 @@ github.com/automata-network/chainbridge-substrate-events v0.0.0-20210921072410-a
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210921072410-a76b2ca3f86f/go.mod h1:foLLnUTMp1lsNAFmIT1IKsboPvZkY2ppGaMF+tVEU0A=
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922082019-3a528ddf1851 h1:cxxbdE0/SWjyiE2aCdfoWLRQcztdnt03KYDsw++8rAg=
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922082019-3a528ddf1851/go.mod h1:hRAIE9TWeIBBv40ZNkDFbDNTIb/YWbC5grHtxEH4/00=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922091321-579f41365aeb h1:chb/QyGl0AbP3etZleZwKnli0d7KWdkCinUn9VH1cIY=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922091321-579f41365aeb/go.mod h1:g9AunzGiWbEoqlAaDYjf9Ozj/k4dYFbKUOXXPMmemgk=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59 h1:uPaRHbal5XG09u6Q7sPAOl9WkyigmhR92uI8CssyT/4=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59/go.mod h1:sKU41f7OEe6Q2oaOdTI3qohvgUpRaLmn3ZS5DcWmXxo=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae h1:bBSAmWUOBi/aPl50ZIIV93z6po8TEKZAKTt7pCMNGEU=
@@ -82,10 +84,14 @@ github.com/automata-network/chainbridge-utils v1.0.7-0.20210921072208-74886d749f
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210921072208-74886d749f9a/go.mod h1:/MMeYlhGCYEQeBGpfwd156wFl9wofXTaSXF7LG60jYo=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210922081954-e441b2de6bbe h1:cjWTLgmbkKGzUig5jn9PdroQZp9dT/ruzmdr1AA4nwI=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210922081954-e441b2de6bbe/go.mod h1:eyuN2i628HxnKUSWFeL5yGWj06dAztPre7pZ4xW+h0E=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210922091423-b0afe4c04a99 h1:wk2o5K915NCNrTxHFC5wOesh5YeP/vMb4LewUWOj5Io=
+github.com/automata-network/chainbridge-utils v1.0.7-0.20210922091423-b0afe4c04a99/go.mod h1:OO/2uEfdFXiVA6y7xl9HbPaTPs3l2huDJ2+rM/6PAc8=
 github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210921071849-38b9e5d1286b h1:Orn80qhyju2dyc+A1iBBXGR8V6bL65VwtKs6uIxnc/8=
 github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210921071849-38b9e5d1286b/go.mod h1:rxWRs30mHdqGoqG1/VjHbN1BcE4Jz/lu5Qe2KfwTRHI=
 github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210922081404-b42e5fac7757 h1:LB7ZBUEOqGH5FsiZWPx0Jn/wkZkwEaeITGGUHAdu5aQ=
 github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210922081404-b42e5fac7757/go.mod h1:rxWRs30mHdqGoqG1/VjHbN1BcE4Jz/lu5Qe2KfwTRHI=
+github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210922090557-193e156285dc h1:RvaNLhEwdEtFKdQvN68RUPj4FIVZqIRKsEIHqCuicU0=
+github.com/automata-network/go-substrate-rpc-client/v3 v3.0.3-0.20210922090557-193e156285dc/go.mod h1:rxWRs30mHdqGoqG1/VjHbN1BcE4Jz/lu5Qe2KfwTRHI=
 github.com/aws/aws-sdk-go v1.25.48/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-sdk-go-v2 v1.2.0/go.mod h1:zEQs02YRBw1DjK0PoJv3ygDYOFTre1ejlJWl8FwAuQo=
 github.com/aws/aws-sdk-go-v2/config v1.1.1/go.mod h1:0XsVy9lBI/BCXm+2Tuvt39YmdHwS5unDQmxZOYe8F5Y=

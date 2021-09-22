@@ -16,6 +16,7 @@ type EventExampleRemark struct {
 
 type Events struct {
 	types.EventRecords
-	events.Events
+	events.ChainBridgeEvents
+	events.BridgeTransferEvents
 	Example_Remark []EventExampleRemark //nolint:stylecheck,golint
 }
