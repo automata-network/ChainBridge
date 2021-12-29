@@ -74,6 +74,8 @@ github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922082019-3
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922082019-3a528ddf1851/go.mod h1:hRAIE9TWeIBBv40ZNkDFbDNTIb/YWbC5grHtxEH4/00=
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922091321-579f41365aeb h1:chb/QyGl0AbP3etZleZwKnli0d7KWdkCinUn9VH1cIY=
 github.com/automata-network/chainbridge-substrate-events v0.0.0-20210922091321-579f41365aeb/go.mod h1:g9AunzGiWbEoqlAaDYjf9Ozj/k4dYFbKUOXXPMmemgk=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20211229082841-921f4ef69c3a h1:HFQmLZM+VyquMVgCucq19Kw63BwvcHFsNGZcEDoDS9E=
+github.com/automata-network/chainbridge-substrate-events v0.0.0-20211229082841-921f4ef69c3a/go.mod h1:g9AunzGiWbEoqlAaDYjf9Ozj/k4dYFbKUOXXPMmemgk=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59 h1:uPaRHbal5XG09u6Q7sPAOl9WkyigmhR92uI8CssyT/4=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907035756-62e8e081ff59/go.mod h1:sKU41f7OEe6Q2oaOdTI3qohvgUpRaLmn3ZS5DcWmXxo=
 github.com/automata-network/chainbridge-utils v1.0.7-0.20210907042600-ca26e8ab6bae h1:bBSAmWUOBi/aPl50ZIIV93z6po8TEKZAKTt7pCMNGEU=
