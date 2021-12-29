@@ -18,5 +18,6 @@ type Events struct {
 	types.EventRecords
 	events.ChainBridgeEvents
 	events.BridgeTransferEvents
+	events.GameEvents
 	Example_Remark []EventExampleRemark //nolint:stylecheck,golint
 }
